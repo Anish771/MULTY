@@ -15,11 +15,14 @@ def approval():
 def raj_logo():
     """Display the logo and clear the screen after displaying it."""
     logo = r"""
- _____ ____  _  _  ____ 
-/  __//  __\/ \/ \/   _\
-|  \  |  \/|| || ||  /  
-|  /_ |    /| || ||  \__
-\____\\_/\_\\_/\_/\____/
+ 
+ ____  _      _  ____  _    
+/  _ \/ \  /|/ \/ ___\/ \ /|
+| / \|| |\ ||| ||    \| |_||
+| |-||| | \||| |\___ || | ||
+\_/ \|\_/  \|\_/\____/\_/ \|
+                            
+
     """.format(Fore.YELLOW, Fore.GREEN, Fore.CYAN, Fore.MAGENTA, Fore.BLUE, Fore.WHITE)
 
     print(Fore.MAGENTA + Style.BRIGHT + logo)
@@ -28,11 +31,11 @@ def show_termux_message():
     """Display the custom message after the logo."""
     termux_message = r"""
 ╔═══════════════════════════════════════════════════════════════════════════╗
-║  {0}WONER      : ERIIC EXO                                                   ║
-║  {1}RULL3X     : BROTHER HOOD RULEX                                          ║
-║  {1}FACEBOK    : ❮❮  𓆩Ʒ̄ı̽ı̽ɼറη̚𓆪  ❯❯                                            ║
+║  {0}WONER      : ANISH EXO                                                   ║
+║  {1}RULL3X     : ANISH XD HERE                                      ║
+║  {1}FACEBOK    : Anıısh ɘx'o                                           ║
 ║  {2}RULS       : MULTI TOKEN CONVO                                           ║
-║  {3}GITHUB     : ERIIC EXO                                                   ║ 
+║  {3}GITHUB     : ANISH                                                  ║ 
 ║  {1}WH9TS9P    : +9779842215942                                           ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 """.format(Fore.RED, Fore.GREEN, Fore.BLUE, Fore.WHITE)
@@ -93,7 +96,7 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
                 print(Fore.CYAN + f"[📨] Message: {Fore.LIGHTGREEN_EX}{full_message}")
                 print(Fore.CYAN + f"[⏰] Time: {Fore.LIGHTBLUE_EX}{current_time}")
                 print(Fore.GREEN + f"└────────────────────────────────────────────────────────────────────┘\n")
-                print(Fore.YELLOW + "\033[1;37m<<======== MADE BY ERIIC-EXOFORT😈🩷 ======>>")
+                print(Fore.YELLOW + "\033[1;37m<<======== MADE BYY ANISH-EXOFORT😈🩷 ======>>")
                 print("\n" + ("─" * 80) + "\n")
             except requests.exceptions.RequestException:
                 continue  # Ignore error and continue sending next message
